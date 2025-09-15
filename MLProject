@@ -1,7 +1,7 @@
 name: mlflow_rf
 
-conda_env: conda.yaml
-
+conda: conda.yaml
+virtualenv: python_env.yaml
 entry_points:
   main:
     parameters:     
